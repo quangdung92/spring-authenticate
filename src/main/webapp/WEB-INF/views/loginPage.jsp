@@ -25,7 +25,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <form role="form">
+        <form name='login' action="<c:url value='/loginPage' />" method='POST'>
+          <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}" />
           <div class="form-group"><label class="control-label" for="username">Email address</label><input
                   class="form-control" id="username" name="username" placeholder="Enter email" type="text"></div>
           <div class="form-group"><label class="control-label" for="password">Password</label><input
