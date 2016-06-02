@@ -11,6 +11,6 @@
     <title></title>
 </head>
 <body>
-
+<h1>You are in home page!</h1>
 </body>
 </html>
